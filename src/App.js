@@ -193,7 +193,7 @@ export default class App extends React.Component{
       shrink: true,
     }}
   />
-   <FormHelperText id="my-mobile-text"  error={!this.state.isDateValid}>Excpected Date of Journey.</FormHelperText>
+   <FormHelperText id="my-mobile-text"  error={!this.state.isDateValid}>Expected Date of Journey.</FormHelperText>
   </FormControl>
   </div>
   
