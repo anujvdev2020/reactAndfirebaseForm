@@ -169,7 +169,7 @@ export default class App extends React.Component{
           <InputLabel htmlFor="my-input">Email address</InputLabel>
         <Input id="my-input" name="email" aria-describedby="my-helper-text" value={this.state.userData.email} onChange={(e)=>this.handleEmail(e)}/>
         <FormHelperText id="my-helper-text"  error={!this.state.isEmailValid}>We'll never share your email.</FormHelperText>
-        http://localhost:3000/
+        
       </FormControl>
     </div>
 
